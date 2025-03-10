@@ -2,8 +2,8 @@
 style_edition = "2024"
 
 # 最大行宽和链式调用宽度
-max_width = 100
 chain_width = 80
+max_width = 100
 
 # 对短数组强制换行（长度阈值）
 array_width = 80
