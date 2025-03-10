@@ -1,11 +1,11 @@
 [package]
+authors = ["{{author}} <{{email}}>"]
 edition = "2024"
 license = "MIT"
-name = "{{project-name}}"
-version = "0.1.0"
+name = "rust-template"
 readme = "README.md"
-authors = ["{{author}} <{{email}}>"]
 repository = "https://github.com/{{github-username}}/{{project-name}}"
+version = "0.1.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [profile.release]
 codegen-units = 1
@@ -17,10 +17,6 @@ strip = true
 debug = "full"
 inherits = "release"
 strip = false
-
-[lib]
-name = "{{project-name}}"
-crate-type = ["{{crate_type}}"]
 
 [dependencies]
 anyhow = "1.0.97"
