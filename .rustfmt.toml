@@ -1,23 +1,18 @@
-# Rustfmt 通用模板配置文件
-
-# 导入粒度设置为 Crate，同一 crate 的导入合并为一个 use 语句
-imports_granularity = "Crate"
+# 使用 Rust 2024 版本
+edition = "2024"
 
 # 指定许可证模板文件路径（需替换为实际路径）
 license_template_path = "LICENSE"
 
-# 最大行宽，适用于大多数项目
+# 最大行宽和链式调用宽度
 max_width = 100
+chain_width = 80
+
+# 对短数组强制换行（长度阈值）
+array_width = 80
 
 # 使用 4 个空格缩进，Rust 社区标准
 tab_spaces = 4
-
-# 链式调用的换行宽度，提高代码可读性
-chain_width = 60
-
-# 枚举和结构体的对齐阈值，保持紧凑但清晰
-enum_discrim_align_threshold = 20
-struct_field_align_threshold = 20
 
 # 格式化文档注释中的代码块
 format_code_in_doc_comments = true
@@ -31,8 +26,18 @@ reorder_imports = true
 # 移除未使用的导入
 remove_unused_imports = true
 
-# 对短数组强制换行（长度阈值）
-array_width = 60
+# 导入粒度设置为 Module，同一模块的导入合并为一个 use 语句
+imports_granularity = "Module"
 
-# 使用小型标签风格（small tabs）
+# 分组导入（标准库、外部 crate 和本地模块）
+group_imports = "StdExternalCrate"
+
+# 使用默认启发式规则（更平衡，适配 Rust 2024）
 use_small_heuristics = "Default"
+
+# 规范化注释和换行
+normalize_comments = true
+wrap_comments = true
+
+# 显式指定 rustfmt 第二代规则
+version = "Two"
