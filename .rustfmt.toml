@@ -1,8 +1,5 @@
 # 使用 Rust 2024 版本
-edition = "2024"
-
-# 指定许可证模板文件路径（需替换为实际路径）
-license_template_path = "LICENSE"
+style_edition = "2024"
 
 # 最大行宽和链式调用宽度
 max_width = 100
@@ -17,17 +14,10 @@ tab_spaces = 4
 # 格式化文档注释中的代码块
 format_code_in_doc_comments = true
 
-# 合并重复的导入
-merge_imports = true
-
 # 按字母顺序重新组织导入
 reorder_imports = true
 
-# 移除未使用的导入
-remove_unused_imports = true
-
-# 导入粒度设置为 Module，同一模块的导入合并为一个 use 语句
-imports_granularity = "Module"
+imports_granularity = "Crate"
 
 # 分组导入（标准库、外部 crate 和本地模块）
 group_imports = "StdExternalCrate"
@@ -38,6 +28,3 @@ use_small_heuristics = "Default"
 # 规范化注释和换行
 normalize_comments = true
 wrap_comments = true
-
-# 显式指定 rustfmt 第二代规则
-version = "Two"
