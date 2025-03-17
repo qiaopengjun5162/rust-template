@@ -1,0 +1,16 @@
+[template]
+# 强制替换现有文件（谨慎使用）
+init = true
+
+[variables]
+# 作者姓名（默认值 + 提示）
+author = { type = "string", prompt = "author name", default = "Paxon Qiao" }
+
+# 作者邮箱（默认值，不提示）
+email = { type = "string", default = "qiaopengjun0@gmail.com" }
+
+# GitHub 用户名（强制用户输入）
+github-username = { type = "string", prompt = "GitHub username", required = false, default = "qiaopengjun5162" }
+
+# 项目名称（从 git 仓库名自动推断）
+project-name = { type = "string", default = "{{project-name}}", prompt = false }

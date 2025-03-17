@@ -1,6 +1,6 @@
-# Contributing to `rust-template`
+# Contributing to `{{project-name}}`
 
-Thank you for considering contributing to `rust-template`! By participating in this project, you are helping to improve the Rust development experience for developers worldwide. Please take a moment to review this guide to help us keep the process smooth and efficient.
+Thank you for considering contributing to `{{project-name}}`! By participating in this project, you are helping to improve the Rust development experience for developers worldwide. Please take a moment to review this guide to help us keep the process smooth and efficient.
 
 ## How to Contribute
 
@@ -10,7 +10,7 @@ We welcome contributions in various forms! Here are a few ways you can get invol
 
 If you come across a bug, please follow these steps:
 
-- Check the [issues](https://github.com/your-username/rust-template/issues) to see if the bug has already been reported.
+- Check the [issues](https://github.com/your-username/{{project-name}}/issues) to see if the bug has already been reported.
 - If not, create a new issue and provide as much detail as possible, including:
   - A clear description of the problem.
   - Steps to reproduce the bug.
@@ -36,7 +36,7 @@ When your changes are ready:
 
 1. Commit your changes with clear, concise commit messages (refer to the [Conventional Commits](https://www.conventionalcommits.org/) for guidance).
 2. Push your branch to your fork.
-3. Create a pull request (PR) to the `main` branch of the `rust-template` repository.
+3. Create a pull request (PR) to the `main` branch of the `{{project-name}}` repository.
 
 ### 4. Code Style and Testing
 
@@ -62,7 +62,7 @@ When your changes are ready:
 2. **Clone your fork** to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/rust-template.git
+   git clone https://github.com/your-username/{{project-name}}.git
    ```
 
 3. **Create a new branch** for your changes:
@@ -96,4 +96,4 @@ Please be respectful and considerate to other contributors. Harassment, abuse, o
 
 ## Thank You
 
-Your contributions are greatly appreciated. Thank you for making `rust-template` better for everyone! 🚀
+Your contributions are greatly appreciated. Thank you for making `{{project-name}}` better for everyone! 🚀
