@@ -32,7 +32,7 @@ jobs:
         uses: taiki-e/install-action@nextest
       - uses: Swatinem/rust-cache@v2
       - name: Check code format
-        run: cargo fmt -- --check
+        run: cargo fmt --all -- --check
       - name: Check the package for errors
         run: cargo check --all
       - name: Lint rust sources
