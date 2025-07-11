@@ -1,15 +1,15 @@
 [package]
-name = "{{ project-name }}"
 authors = ["{{author}} <{{email}}>"]
-edition = "2024"
-license = "MIT"
-readme = "README.md"
-repository = "https://github.com/{{github-username}}/{{project-name}}"
-version = "0.1.0"
-documentation = "https://docs.rs/"
 description = """
 
 """
+documentation = "https://docs.rs/"
+edition = "2024"
+license = "MIT"
+name = "{{ project-name }}"
+readme = "README.md"
+repository = "https://github.com/{{github-username}}/{{project-name}}"
+version = "0.1.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [profile.release]
 codegen-units = 1

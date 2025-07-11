@@ -27,6 +27,13 @@ repos:
         language: rust
         files: \.rs$
         args: []
+      - id: taplo fmt
+        name: taplo fmt
+        description: Format files with taplo.
+        entry: bash -c 'taplo fmt --option reorder_keys=true --check'
+        language: rust
+        files: \.toml$
+        args: []
       - id: cargo-deny
         name: cargo deny check
         description: Check cargo dependencies
