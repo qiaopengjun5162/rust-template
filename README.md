@@ -1,6 +1,6 @@
 # Rust Template
 
-![Rust](https://img.shields.io/badge/Rust-1.84.1-orange?logo=rust)
+![Rust](https://img.shields.io/badge/Rust-1.88.0-orange?logo=rust)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 `rust-template` is a generic Rust project template designed to help developers quickly bootstrap Rust projects. It integrates various development tools and best practices to help you write, test, and maintain Rust code more efficiently.
